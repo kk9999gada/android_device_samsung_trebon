@@ -135,6 +135,8 @@ DEVICE_RESOLUTION := 320x480
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_INCLUDE_FB2PNG := true
+TARGET_RECOVERY_INITRC := device/samsung/trebon/recovery/init.recovery.qcom.rc
+TARGET_RECOVERY_FSTAB := device/samsung/trebon/rootdir/fstab.qcom
 
 ## Webkit
 PRODUCT_PREBUILT_WEBVIEWCHROMIUM := yes
