@@ -65,67 +65,67 @@ PRODUCT_COPY_FILES += \
 
 # Media
 PRODUCT_COPY_FILES += \
-    device/samsung/msm7x27a-common/prebuilt/etc/media_profiles.xml:system/etc/media_profiles.xml \
-    device/samsung/msm7x27a-common/prebuilt/etc/media_codecs.xml:system/etc/media_codecs.xml
+    device/samsung/trebon/prebuilt/etc/media_profiles.xml:system/etc/media_profiles.xml \
+    device/samsung/trebon/prebuilt/etc/media_codecs.xml:system/etc/media_codecs.xml
 
 # Camera
 PRODUCT_COPY_FILES += \
-    device/samsung/msm7x27a-common/camera/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so
+    device/samsung/trebon/camera/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so
 
 # Rootdir
 PRODUCT_COPY_FILES += \
-    device/samsung/msm7x27a-common/rootdir/init.qcom.rc:root/init.qcom.rc \
-    device/samsung/msm7x27a-common/rootdir/init.qcom.usb.rc:root/init.qcom.usb.rc \
-    device/samsung/msm7x27a-common/rootdir/ueventd.qcom.rc:root/ueventd.qcom.rc \
-    device/samsung/msm7x27a-common/rootdir/lpm.rc:root/lpm.rc \
-    device/samsung/msm7x27a-common/rootdir/fstab.qcom:root/fstab.qcom
+    device/samsung/trebon/rootdir/init.qcom.rc:root/init.qcom.rc \
+    device/samsung/trebon/rootdir/init.qcom.usb.rc:root/init.qcom.usb.rc \
+    device/samsung/trebon/rootdir/ueventd.qcom.rc:root/ueventd.qcom.rc \
+    device/samsung/trebon/rootdir/lpm.rc:root/lpm.rc \
+    device/samsung/trebon/rootdir/fstab.qcom:root/fstab.qcom
 
 # Recovery
 PRODUCT_COPY_FILES += \
-    device/samsung/msm7x27a-common/recovery/sbin/rmt_storage_recovery:recovery/root/sbin/rmt_storage_recovery \
-    device/samsung/msm7x27a-common/recovery/postrecoveryboot.sh:recovery/root/sbin/postrecoveryboot.sh \
-    device/samsung/msm7x27a-common/recovery/postrecoveryboot.sh:recovery/system/bin/postrecoveryboot.sh
+    device/samsung/trebon/recovery/sbin/rmt_storage_recovery:recovery/root/sbin/rmt_storage_recovery \
+    device/samsung/trebon/recovery/postrecoveryboot.sh:recovery/root/sbin/postrecoveryboot.sh \
+    device/samsung/trebon/recovery/postrecoveryboot.sh:recovery/system/bin/postrecoveryboot.sh
 
 # FM
 PRODUCT_COPY_FILES += \
-    device/samsung/msm7x27a-common/prebuilt/etc/init.qcom.fm.sh:/system/etc/init.qcom.fm.sh
+    device/samsung/trebon/prebuilt/etc/init.qcom.fm.sh:/system/etc/init.qcom.fm.sh
 
 # Network
 PRODUCT_COPY_FILES += \
-    device/samsung/msm7x27a-common/prebuilt/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    device/samsung/msm7x27a-common/prebuilt/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
-    device/samsung/msm7x27a-common/prebuilt/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
-    device/samsung/msm7x27a-common/prebuilt/bin/get_macaddrs:system/bin/get_macaddrs
+    device/samsung/trebon/prebuilt/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    device/samsung/trebon/prebuilt/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
+    device/samsung/trebon/prebuilt/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
+    device/samsung/trebon/prebuilt/bin/get_macaddrs:system/bin/get_macaddrs
 
 # Audio
 PRODUCT_COPY_FILES += \
-    device/samsung/msm7x27a-common/prebuilt/etc/audio_policy.conf:system/etc/audio_policy.conf \
-    device/samsung/msm7x27a-common/prebuilt/etc/AutoVolumeControl.txt:system/etc/AutoVolumeControl.txt \
-    device/samsung/msm7x27a-common/prebuilt/etc/AudioFilter.csv:system/etc/AudioFilter.csv
+    device/samsung/trebon/prebuilt/etc/audio_policy.conf:system/etc/audio_policy.conf \
+    device/samsung/trebon/prebuilt/etc/AutoVolumeControl.txt:system/etc/AutoVolumeControl.txt \
+    device/samsung/trebon/prebuilt/etc/AudioFilter.csv:system/etc/AudioFilter.csv
 
 # Keychar
 PRODUCT_COPY_FILES += \
-    device/samsung/msm7x27a-common/prebuilt/usr/keychars/7x27a_kp.kcm.bin:system/usr/keychars/7x27a_kp.kcm.bin \
-    device/samsung/msm7x27a-common/prebuilt/usr/keychars/surf_keypad.kcm.bin:system/usr/keychars/surf_keypad.kcm.bin \
+    device/samsung/trebon/prebuilt/usr/keychars/7x27a_kp.kcm.bin:system/usr/keychars/7x27a_kp.kcm.bin \
+    device/samsung/trebon/prebuilt/usr/keychars/surf_keypad.kcm.bin:system/usr/keychars/surf_keypad.kcm.bin \
 
 # Keylayout
 PRODUCT_COPY_FILES += \
-    device/samsung/msm7x27a-common/prebuilt/usr/keylayout/7x27a_kp.kl:system/usr/keylayout/7x27a_kp.kl \
-    device/samsung/msm7x27a-common/prebuilt/usr/keylayout/sec_jack.kl:system/usr/keylayout/sec_jack.kl \
-    device/samsung/msm7x27a-common/prebuilt/usr/keylayout/sec_key.kl:system/usr/keylayout/sec_key.kl \
-    device/samsung/msm7x27a-common/prebuilt/usr/keylayout/sec_powerkey.kl:system/usr/keylayout/sec_powerkey.kl \
-    device/samsung/msm7x27a-common/prebuilt/usr/keylayout/surf_keypad.kl:system/usr/keylayout/surf_keypad.kl \
-    device/samsung/msm7x27a-common/prebuilt/usr/keylayout/sec_touchscreen.kl:system/usr/keylayout/sec_touchscreen.kl
+    device/samsung/trebon/prebuilt/usr/keylayout/7x27a_kp.kl:system/usr/keylayout/7x27a_kp.kl \
+    device/samsung/trebon/prebuilt/usr/keylayout/sec_jack.kl:system/usr/keylayout/sec_jack.kl \
+    device/samsung/trebon/prebuilt/usr/keylayout/sec_key.kl:system/usr/keylayout/sec_key.kl \
+    device/samsung/trebon/prebuilt/usr/keylayout/sec_powerkey.kl:system/usr/keylayout/sec_powerkey.kl \
+    device/samsung/trebon/prebuilt/usr/keylayout/surf_keypad.kl:system/usr/keylayout/surf_keypad.kl \
+    device/samsung/trebon/prebuilt/usr/keylayout/sec_touchscreen.kl:system/usr/keylayout/sec_touchscreen.kl
 
 # Sensor calibration files
 PRODUCT_COPY_FILES += \
-    device/samsung/msm7x27a-common/prebuilt/etc/calib.dat:system/etc/calib.dat \
-    device/samsung/msm7x27a-common/prebuilt/etc/param.dat:system/etc/param.dat \
-    device/samsung/msm7x27a-common/prebuilt/etc/sensors.dat:system/etc/sensors.dat
+    device/samsung/trebon/prebuilt/etc/calib.dat:system/etc/calib.dat \
+    device/samsung/trebon/prebuilt/etc/param.dat:system/etc/param.dat \
+    device/samsung/trebon/prebuilt/etc/sensors.dat:system/etc/sensors.dat
 
 # Touchscreen configuration
 PRODUCT_COPY_FILES += \
-    device/samsung/msm7x27a-common/prebuilt/usr/idc/sec_touchscreen.idc:system/usr/idc/sec_touchscreen.idc
+    device/samsung/trebon/prebuilt/usr/idc/sec_touchscreen.idc:system/usr/idc/sec_touchscreen.idc
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
