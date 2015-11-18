@@ -155,7 +155,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dexopt-data-only=1 \
     dalvik.vm.jit.codecachesize=1 \
-    ro.config.low_ram=true \
+    ro.config.low_ram=false \
     dalvik.vm.jit.codecachesize=0
 
 PRODUCT_PROPERTY_OVERRIDES += \
